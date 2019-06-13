@@ -5,3 +5,9 @@ an application which has login page. After successfully login you have to redire
 
 #Technology:
  React, Redux, and others
+ 
+ 
+ #Create_Build : npm run build
+ #Start_App : npm run start
+ 
+ 
