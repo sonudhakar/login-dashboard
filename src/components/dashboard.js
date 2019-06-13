@@ -9,6 +9,10 @@ class Dashboard extends Component {
     super(props);
     console.log(props);
   }
+  componentWillMount(){
+    if(!this.props.token)
+      this.props.history.push('/login')
+  }
   render() {
     return (
       <div className="token-wrapper">{this.props.token}</div>
